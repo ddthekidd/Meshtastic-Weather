@@ -1,5 +1,5 @@
 [Unit]
-Description=TC²-BBS Meshtastic Version
+Description=Meshtastic Weather Alerts
 After=multi-user.target
 
 [Service]
@@ -7,8 +7,8 @@ Type=simple
 Restart=always
 RestartSec=20
 User=pi
-WorkingDirectory=/home/pi/TC2-BBS-mesh
-ExecStart=/home/pi/TC2-BBS-mesh/venv/bin/python3 /home/pi/TC2-BBS-mesh/server.py
+WorkingDirectory=/home/pi/meshtastic-weather-alerts
+ExecStart=/home/pi/meshtastic-weather-alerts/venv/bin/python3 /home/pi/meshtastic-weather-alerts/mesh-weather-alerts.py
 
 [Install]
 WantedBy=multi-user.target
