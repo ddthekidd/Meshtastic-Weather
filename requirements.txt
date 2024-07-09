@@ -1,2 +1,6 @@
 meshtastic
+configparser
+pyserial
+requests
+paho-mqtt
 pypubsub
